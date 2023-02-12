@@ -9,7 +9,6 @@ import {
   faGraduationCap,
   faBriefcase,
 } from '@fortawesome/free-solid-svg-icons';
-import globe from '../assets/images/globe.png';
 
 const AboutMe = () => {
   return (
