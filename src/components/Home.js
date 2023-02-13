@@ -38,6 +38,22 @@ const Home = () => {
         icon={faCircleArrowDown}
         size='2xl'
       />
+      <div id='photoby'>
+        Photo by{' '}
+        <a
+          id='attribute'
+          href='https://unsplash.com/@andrewgloor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'
+        >
+          Andrew Gloor
+        </a>{' '}
+        on{' '}
+        <a
+          id='attribute'
+          href='https://unsplash.com/photos/I1RZSDvvStY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'
+        >
+          Unsplash
+        </a>
+      </div>
     </div>
   );
 };

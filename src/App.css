@@ -491,6 +491,18 @@ font-weight:900;
   .location-contact:hover{
     color: #ff7a59;
   }
+  #photoby{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: white;
+    font-size: 10px;
+  }
+  #attribute{
+    color: orange;
+    font-size: 10px;
+  }
+
 
 
 
