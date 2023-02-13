@@ -1,5 +1,5 @@
 import React from 'react';
-import ashleyski from '../assets/images/ashley.jpg';
+import ashandstella from '../assets/images/ashandstella.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faBicycle,
@@ -13,7 +13,7 @@ import {
 const AboutMe = () => {
   return (
     <div id='about'>
-      <img id='me' src={ashleyski}></img>
+      <img id='me' src={ashandstella}></img>
       <div id='me-info'>
         <div id='me-one'>
           <div id='title-me'>About Me</div>

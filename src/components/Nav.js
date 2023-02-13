@@ -6,8 +6,8 @@ const navLinks = [
   { navLinkId: 'About', scrollToId: 'about' },
   { navLinkId: 'Skills', scrollToId: 'skills' },
   { navLinkId: 'Portfolio', scrollToId: 'allports' },
+  { navLinkId: 'Contact', scrollToId: 'contactpage' },
   // { navLinkId: "FAQ's", scrollToId: 'faqs-container' },
-  // { navLinkId: 'Contact', scrollToId: 'contact-container' },
 ];
 
 const NavLink = ({
@@ -49,19 +49,6 @@ const NavBar = () => {
             setActiveNavLinkId={setActiveNavLinkId}
           />
         ))}
-
-        {/* <NavLink
-          id='home'
-          to='/'
-        >
-          Home
-        </NavLink>
-        <NavLink to='/'>About</NavLink>
-        <NavLink to='/'>Services</NavLink>
-        <NavLink to='/'>Testimonials</NavLink>
-        <NavLink to='/'>FAQ's</NavLink>
-        <NavLink to='/'>Contact</NavLink>
-        <NavLink to='/'>Calendar</NavLink> */}
       </nav>
     </div>
   );

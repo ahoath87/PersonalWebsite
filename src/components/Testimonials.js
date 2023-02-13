@@ -10,7 +10,7 @@ const Testimonials = () => {
       }}
       id='testimonial-container'
     >
-      <div id='testimonial-message'> This is the home</div>
+      <div id='testimonial-message'> This is the testimonials</div>
     </div>
   );
 };

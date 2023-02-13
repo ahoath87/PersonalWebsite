@@ -1,49 +1,94 @@
-// import { React, useState } from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faLocation } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
-// const ContactForm = () => {
-//   const [name, setName] = useState('');
-//   const [email, setEmail] = useState('');
-//   const [message, setMessage] = useState('');
-//   try {
-//     e.preventDefault();
-//   } catch (error) {
-//     console.error(error);
-//   }
-//   return (
-//     <div>
-//       Contact
-//       <form
-//         action={FORM_ENDPOINT}
-//         onSubmit={handleSubmit}
-//         method='POST'
-//         target='blank'
-//       >
-//         <div>
-//           <input
-//             id='form-name'
-//             name='name'
-//             type='text'
-//             placeholder='Name'
-//           ></input>
-//           <input
-//             id='form-email'
-//             name='email'
-//             type='text'
-//             placeholder='Email'
-//           ></input>
-//           <input
-//             id='form-message'
-//             name='message'
-//             type='text'
-//             placeholder='Message'
-//           ></input>
-//           <button id='form-submit' type='submit'>
-//             Send Message
-//           </button>
-//         </div>
-//       </form>
-//     </div>
-//   );
-// };
+const SERVICE_ID = 'service_x7y01j7';
+const TEMPLATE_ID = 'template_mfgc7sm';
+const USER_ID = 'DSsXcxvAe0vDPksdQ';
 
-// export default ContactForm;
+export const ContactUs = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, USER_ID).then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+  };
+
+  return (
+    <div id='contactpage'>
+      <div id='contact-other'>
+        <p>Thanks for checking out my page!</p>
+        <ul id='contacticons'>
+          <li id='lione'>
+            {' '}
+            <FontAwesomeIcon icon={faEnvelope} />
+            &emsp; ahoath87@gmail.com
+          </li>
+          <li>
+            {' '}
+            <a
+              className='location-contact'
+              href='https://www.google.com/maps/d/viewer?mid=1xVv5pPmhJPyrIZN5eo1-akLRJE8&hl=en&ll=40.1750892712578%2C-105.16894322259816&z=12'
+            >
+              <FontAwesomeIcon icon={faLocation} />
+              &emsp; Longmont, CO
+            </a>
+          </li>
+          <li>
+            {' '}
+            <a className='contact-linkin' href='https://github.com/ahoath87'>
+              <FontAwesomeIcon icon={faGithub} />
+              &emsp; github.com/ahoath87
+            </a>
+          </li>
+          <li>
+            {' '}
+            <a
+              className='contact-linkin'
+              href='https://www.linkedin.com/in/ashleyhoath/'
+            >
+              <FontAwesomeIcon color='white' icon={faLinkedinIn} />
+              &emsp; linkedin.com/in/ashleyhoath/
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id='just-email'>
+        <form className='emailform' ref={form} onSubmit={sendEmail}>
+          <div>
+            <FontAwesomeIcon icon={faEnvelope} size='3x' />
+            &emsp; Get in touch
+          </div>
+          <input
+            id='emailname'
+            type='text'
+            placeholder='Name'
+            name='user_name'
+          />
+
+          <input
+            id='emailuser'
+            type='email'
+            placeholder='Email'
+            name='user_email'
+          />
+
+          <textarea id='emailmessage' placeholder='Message' name='message' />
+          <input id='emailbutt' type='submit' value='Send' />
+        </form>
+      </div>
+    </div>
+  );
+};
+
+export default ContactUs;
