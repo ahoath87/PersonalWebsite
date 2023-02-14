@@ -302,7 +302,7 @@ font-weight:900;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 5em;
+  padding: 8em;
   gap: 4em;
 }
 #creative-juiceslink{
@@ -420,12 +420,16 @@ font-weight:900;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2em;
+  gap: 5em;
   color: whitesmoke;
+}
+#skills{
+  background-color: rgba(0, 0, 0, 0.874);
 }
 
 #skillsimg{
   width: 50%;
+  border: rgb(244, 241, 241) solid 8px;
 }
 
 #contactpage{
@@ -501,6 +505,12 @@ font-weight:900;
   #attribute{
     color: orange;
     font-size: 10px;
+  }
+  #testimonial-container{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
   }
 
 

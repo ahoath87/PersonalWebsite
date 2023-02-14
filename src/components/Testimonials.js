@@ -1,4 +1,5 @@
-import react from 'react';
+import React from 'react';
+import './testimonials.css';
 import fruita from '../assets/images/fruita1.jpg';
 
 const Testimonials = () => {
@@ -10,7 +11,15 @@ const Testimonials = () => {
       }}
       id='testimonial-container'
     >
-      <div id='testimonial-message'> This is the testimonials</div>
+      <div id='quote-box'>
+        <div id='quote'>
+          <p>"We shall not cease from exploring</p>
+          <p>And the end of all our exploring</p>
+          <p>Will be to arrive where we started</p>
+          <p>And know the place for the first time"</p>
+          <p> ~ T.S. Elliot</p>
+        </div>
+      </div>
     </div>
   );
 };
