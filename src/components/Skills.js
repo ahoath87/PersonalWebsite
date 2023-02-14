@@ -1,10 +1,10 @@
 import React from 'react';
-import skills5 from '../assets/images/skills5.jpg';
+import skills6 from '../assets/images/skills6.jpg';
 
 const Skills = () => {
   return (
     <div id='skills'>
-      <img id='skillsimg' src={skills5}></img>
+      <img id='skillsimg' src={skills6}></img>
       {/* <p id='skills-title'>Skills</p>
       <div>
         <p id='frontend'>Frontend Development</p>
