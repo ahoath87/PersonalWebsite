@@ -16,7 +16,7 @@
     position: sticky;
     top: 0;
     align-self: flex-start;
-    margin-right: 4em;
+    margin-right: 3em;
    
   }
   #links{
@@ -296,6 +296,7 @@ font-weight:900;
   font-size: 20px;
   font-weight:900; 
 }
+
 .allPorts{
   background-color: rgba(0, 0, 0, 0.874);
   display: flex;
@@ -303,6 +304,7 @@ font-weight:900;
   justify-content: center;
   align-items: center;
   padding: 8em;
+  padding-bottom: 10em;
   gap: 4em;
 }
 #creative-juiceslink{
@@ -511,6 +513,13 @@ font-weight:900;
     background-position: center;
     background-size: cover;
     min-height: 100vh;
+  }
+
+  #port-intro{
+   position: absolute;
+    margin-left: 41%;
+   color: whitesmoke;
+    font-size: 30px;
   }
 
 

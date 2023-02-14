@@ -38,6 +38,8 @@ export const ContactUs = () => {
             {' '}
             <a
               className='location-contact'
+              target='_blank'
+              rel='noopener noreferrer'
               href='https://www.google.com/maps/d/viewer?mid=1xVv5pPmhJPyrIZN5eo1-akLRJE8&hl=en&ll=40.1750892712578%2C-105.16894322259816&z=12'
             >
               <FontAwesomeIcon icon={faLocation} />
@@ -46,7 +48,12 @@ export const ContactUs = () => {
           </li>
           <li>
             {' '}
-            <a className='contact-linkin' href='https://github.com/ahoath87'>
+            <a
+              className='contact-linkin'
+              href='https://github.com/ahoath87'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <FontAwesomeIcon icon={faGithub} />
               &emsp; github.com/ahoath87
             </a>
@@ -56,6 +63,8 @@ export const ContactUs = () => {
             <a
               className='contact-linkin'
               href='https://www.linkedin.com/in/ashleyhoath/'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               <FontAwesomeIcon color='white' icon={faLinkedinIn} />
               &emsp; linkedin.com/in/ashleyhoath/

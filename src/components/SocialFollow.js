@@ -12,7 +12,11 @@ export default function SocialFollow() {
   return (
     <div id='social-container'>
       <div id='social-links'>
-        <a href='https://github.com/ahoath87'>
+        <a
+          href='https://github.com/ahoath87'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <FontAwesomeIcon
             className='github-social'
             icon={faGithub}
@@ -20,7 +24,11 @@ export default function SocialFollow() {
             size='2x'
           />
         </a>
-        <a href='https://www.instagram.com/ahoath15/?hl=en'>
+        <a
+          href='https://www.instagram.com/ahoath15/?hl=en'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <FontAwesomeIcon
             className='instagram-social'
             icon={faInstagram}
@@ -28,7 +36,11 @@ export default function SocialFollow() {
             color='black'
           />
         </a>
-        <a href='https://www.linkedin.com/in/ashleyhoath/'>
+        <a
+          href='https://www.linkedin.com/in/ashleyhoath/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <FontAwesomeIcon
             className='linkedIn-social'
             icon={faLinkedinIn}
@@ -36,7 +48,11 @@ export default function SocialFollow() {
             size='2x'
           />
         </a>
-        <a href='mailto:ahoath87@gamil.com'>
+        <a
+          href='mailto:ahoath87@gamil.com'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <FontAwesomeIcon
             className='google-social'
             icon={faGoogle}
@@ -44,7 +60,11 @@ export default function SocialFollow() {
             size='2x'
           />
         </a>
-        <a href='mailto:ahoath87@gamil.com'>
+        <a
+          href='mailto:ahoath87@gamil.com'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <FontAwesomeIcon
             className='facebook-social'
             icon={faFacebook}

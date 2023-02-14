@@ -5,12 +5,12 @@ const navLinks = [
   { navLinkId: 'Home', scrollToId: 'home' },
   { navLinkId: 'About', scrollToId: 'about' },
   { navLinkId: 'Skills', scrollToId: 'skills' },
-  { navLinkId: 'Portfolio', scrollToId: 'allports' },
+  { navLinkId: 'Portfolio', scrollToId: 'scroll-to-port' },
   { navLinkId: 'Contact', scrollToId: 'contactpage' },
   // { navLinkId: "FAQ's", scrollToId: 'faqs-container' },
 ];
 
-const NavLink = ({
+export const NavLink = ({
   navLinkId,
   scrollToId,
   activeNavLinkId,

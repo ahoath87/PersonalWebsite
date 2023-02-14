@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import SocialFollow from './SocialFollow';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -25,7 +26,11 @@ const Home = () => {
             labrador Stella.
           </p>
           <SocialFollow></SocialFollow>
-          <a href='https://drive.google.com/file/d/12v7lXmRzqhDs9Yr3zg_0xZcPdUC56wli/view?usp=sharing'>
+          <a
+            href='https://drive.google.com/file/d/12v7lXmRzqhDs9Yr3zg_0xZcPdUC56wli/view?usp=sharing'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <button id='resume-button'>
               Resume &nbsp; <FontAwesomeIcon icon={faFloppyDisk} />
             </button>
@@ -33,11 +38,15 @@ const Home = () => {
           <button id='contact-button'>Contact</button>
         </div>
       </div>
-      <FontAwesomeIcon
-        className='circle-arrow'
-        icon={faCircleArrowDown}
-        size='2xl'
-      />
+      <NavLink scrollToId='contactpages'>
+        <FontAwesomeIcon
+          className='circle-arrow'
+          icon={faCircleArrowDown}
+          scrollToId='contactpage'
+          size='2xl'
+        />
+      </NavLink>
+
       <div id='photoby'>
         Photo by{' '}
         <a

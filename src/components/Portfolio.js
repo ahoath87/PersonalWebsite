@@ -5,9 +5,14 @@ import stretch from '../assets/images/stretch.jpg';
 
 const Portfolio = () => {
   return (
-    <div>
+    <div id='scroll-to-port'>
+      <h2 id='port-intro'>Portfolio Projects</h2>
       <div className='allPorts'>
-        <a href='https://creative-juices.fly.dev/'>
+        <a
+          href='https://creative-juices.fly.dev/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <div id='creative-juiceslink'>
             <img id='paint' src={paint}></img>
 
@@ -16,9 +21,12 @@ const Portfolio = () => {
             </div>
           </div>
         </a>
-        <a href='https://github.com/ahoath87/self-led-project01'>
+        <a
+          href='https://github.com/ahoath87/self-led-project01'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <div className='checkout'>
-            <h2>Portfolio Projects</h2>
             <div id='pelvic-link'>
               <img id='women' src={women}></img>
               <div className='textwo'>
@@ -27,7 +35,11 @@ const Portfolio = () => {
             </div>
           </div>
         </a>
-        <a href='https://github.com/ahoath87/FitnessTrackerBackend'>
+        <a
+          href='https://github.com/ahoath87/FitnessTrackerBackend'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <div id='fitness-link'>
             <img id='stretch' src={stretch}></img>
             <div className='textthree'>
