@@ -18,6 +18,11 @@ const Portfolio = () => {
 
             <div className='textone'>
               <div id='text-creative'>Creative Juices Website</div>
+              <p id='portp'>Tech Stack</p>
+              <p id='portp'>- React.js</p>
+              <p id='portp'>- Vite</p>
+              <p id='portp'>- Express</p>
+              <p id='portp'>- PostgresSQL</p>
             </div>
           </div>
         </a>
@@ -31,6 +36,11 @@ const Portfolio = () => {
               <img id='women' src={women}></img>
               <div className='textwo'>
                 <div id='text-pelvic'>Pelvic Health Website</div>
+                <p id='portp'>Tech Stack</p>
+                <p id='portp'>- React.js</p>
+                <p id='portp'>- Webpack</p>
+                <p id='portp'>- Express</p>
+                <p id='portp'>- PostgresSQL</p>
               </div>
             </div>
           </div>
@@ -44,6 +54,11 @@ const Portfolio = () => {
             <img id='stretch' src={stretch}></img>
             <div className='textthree'>
               <div id='text-fitness'>Fitness Tracker Website</div>
+              <p id='portp'>Tech Stack</p>
+              <p id='portp'>- React.js</p>
+              <p id='portp'>- Vite</p>
+              <p id='portp'>- Express</p>
+              <p id='portp'>- PostgresSQL</p>
             </div>
           </div>
         </a>

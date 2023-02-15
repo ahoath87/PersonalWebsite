@@ -1,5 +1,6 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import ReactJsAlert from 'reactjs-alert';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLocation } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
@@ -9,6 +10,9 @@ const TEMPLATE_ID = 'template_mfgc7sm';
 const USER_ID = 'DSsXcxvAe0vDPksdQ';
 
 export const ContactUs = () => {
+  const [status, setStatus] = useState(false);
+  const [type, setType] = useState('');
+  const [title, setTitle] = useState('');
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -17,6 +21,9 @@ export const ContactUs = () => {
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, USER_ID).then(
       (result) => {
         console.log(result.text);
+        setStatus(true);
+        setType('success');
+        setTitle('Message has been sent!');
       },
       (error) => {
         console.log(error.text);
@@ -74,6 +81,14 @@ export const ContactUs = () => {
       </div>
       <div id='just-email'>
         <form className='emailform' ref={form} onSubmit={sendEmail}>
+          <ReactJsAlert
+            status={status} // true or false
+            type={type} // success, warning, error, info
+            title={title}
+            quotes={true}
+            quote='Thanks so much for reaching out!'
+            Close={() => setStatus(false)}
+          />
           <div>
             <FontAwesomeIcon icon={faEnvelope} size='3x' />
             &emsp; Get in touch

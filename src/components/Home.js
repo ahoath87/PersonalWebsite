@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+
 import SocialFollow from './SocialFollow';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -27,7 +27,7 @@ const Home = () => {
           </p>
           <SocialFollow></SocialFollow>
           <a
-            href='https://drive.google.com/file/d/12v7lXmRzqhDs9Yr3zg_0xZcPdUC56wli/view?usp=sharing'
+            href='https://drive.google.com/file/d/1fUAhxD_Ga3clHJTuIcOMXG9gsKL8Pj3v/view?usp=sharing'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -38,14 +38,12 @@ const Home = () => {
           <button id='contact-button'>Contact</button>
         </div>
       </div>
-      <NavLink scrollToId='contactpages'>
-        <FontAwesomeIcon
-          className='circle-arrow'
-          icon={faCircleArrowDown}
-          scrollToId='contactpage'
-          size='2xl'
-        />
-      </NavLink>
+
+      <FontAwesomeIcon
+        className='circle-arrow'
+        icon={faCircleArrowDown}
+        size='2xl'
+      />
 
       <div id='photoby'>
         Photo by{' '}

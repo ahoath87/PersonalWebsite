@@ -74,6 +74,7 @@
   }
   #textone{
     font-size: 20px;
+    
   }
   #textwo{
     font-size: 20px;
@@ -520,6 +521,9 @@ font-weight:900;
     margin-left: 41%;
    color: whitesmoke;
     font-size: 30px;
+  }
+  #portp{
+    color: white;
   }
 
 
