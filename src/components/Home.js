@@ -27,7 +27,7 @@ const Home = () => {
           </p>
           <SocialFollow></SocialFollow>
           <a
-            href='https://drive.google.com/file/d/1fUAhxD_Ga3clHJTuIcOMXG9gsKL8Pj3v/view?usp=sharing'
+            href='https://drive.google.com/file/d/1Jtcc01emrzne-3fldAu-qgE-5W1yJ2Pg/view?usp=sharing'
             target='_blank'
             rel='noopener noreferrer'
           >
