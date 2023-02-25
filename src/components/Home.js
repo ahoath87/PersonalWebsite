@@ -9,6 +9,14 @@ import {
 // import { gsap } from "gsap";
 
 const Home = () => {
+  const handleClickScroll = () => {
+    const element = document.getElementById('contactpage');
+    if (element) {
+      //  Will scroll smoothly to the bottom of the home page
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div>
       <div id='home'>
@@ -21,9 +29,9 @@ const Home = () => {
           </p>
           <p id='textwo'>
             In my free time you can find me on the soccer pitch, mountain biking
-            with my girl squad or husband and getting into the backcountry both
-            on skis and on foot (depending on the season) with my badass
-            labrador Stella.
+            with my girl squad or my husband and living it up in the
+            backcountry, on skis or on foot, (depending on the season) with my
+            dog Stella.
           </p>
           <SocialFollow></SocialFollow>
           <a
@@ -35,7 +43,9 @@ const Home = () => {
               Resume &nbsp; <FontAwesomeIcon icon={faFloppyDisk} />
             </button>
           </a>
-          <button id='contact-button'>Contact</button>
+          <button onClick={handleClickScroll} id='contact-button'>
+            Contact
+          </button>
         </div>
       </div>
 
@@ -43,6 +53,7 @@ const Home = () => {
         className='circle-arrow'
         icon={faCircleArrowDown}
         size='2xl'
+        onClick={handleClickScroll}
       />
 
       <div id='photoby'>

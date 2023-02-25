@@ -18,12 +18,12 @@ const AboutMe = () => {
         <div id='me-one'>
           <div id='title-me'>About Me</div>
           Prior to FullStack Academy, I practiced as a{' '}
-          <span id='doctor'> Doctor of physical therapy</span> for 9 years.
+          <span id='doctor'> Doctor of physical therapy</span> for 10 years.
           While I loved working with patients, I was truly driven by the
           complexity of solving interrelated issues among body systems as well
           as the impact my work had. This is what led me to seek out new ways to
-          influence peoples lives through other mediums that have a larger
-          outreach.
+          positively influence peoples lives through other mediums that have a
+          larger outreach.
         </div>
         <div id='me-middle'>
           I discovered my immense interest in{' '}
@@ -36,7 +36,7 @@ const AboutMe = () => {
           I am currently writing <span id='javascript'> Javascript </span>{' '}
           across the full stack for web applications and seeking out an
           opportunity to be apart of a collaborative community where I have the
-          opportunity to contribute ideas, navigate complex challenges and learn
+          ability to contribute ideas, navigate complex challenges and learn
           from a diverse group of peers.
           <div>
             <ul id='aboutmelist'>
