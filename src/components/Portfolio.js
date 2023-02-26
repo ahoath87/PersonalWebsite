@@ -57,7 +57,7 @@ const Portfolio = () => {
             <img id='girlsbike' src={girlsbike}></img>
 
             <div className='textfour'>
-              <div id='text-girlsbike'>Creative Juices Website</div>
+              <div id='text-girlsbike'>Womens Gear Trade</div>
               <p id='portp'>Tech Stack</p>
               <p id='portp'>- Javascript</p>
               <p id='portp'>- React.js</p>
@@ -76,8 +76,8 @@ const Portfolio = () => {
             <img id='stretch' src={stretch}></img>
             <div className='textthree'>
               <div id='text-fitness'>Fitness Tracker Website</div>
-              <p id='portp'>- Javascript</p>
               <p id='portp'>Tech Stack</p>
+              <p id='portp'>- Javascript</p>
               <p id='portp'>- React.js</p>
               <p id='portp'>- Vite</p>
               <p id='portp'>- Express</p>
