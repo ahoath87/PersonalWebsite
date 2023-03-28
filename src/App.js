@@ -13,10 +13,11 @@ function App() {
   return (
     <div className='App'>
       <div
-        style={{
-          backgroundImage: `url(${mountain})`,
-          backgroundRepeat: 'no-repeat',
-        }}
+        id='home-container'
+        // style={{
+        //   backgroundImage: `url(${mountain})`,
+        //   backgroundRepeat: 'no-repeat',
+        // }}
       >
         <NavBar></NavBar>
         <Home></Home>

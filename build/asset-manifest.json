@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.18c23844.css",
+    "main.js": "/static/js/main.ae7687e3.js",
+    "static/media/girlsbike.JPEG": "/static/media/girlsbike.708fdefc82eaac0373c5.JPEG",
+    "static/media/ashandstella.png": "/static/media/ashandstella.6eb2edac3a5f080aef81.png",
+    "static/media/realmountain.jpg": "/static/media/realmountain.fdfec45df58605224cdf.jpg",
+    "static/media/fruita1.jpg": "/static/media/fruita1.b120f3b49c498377669c.jpg",
+    "static/media/women.jpg": "/static/media/women.0aee28b66b8dec4319f7.jpg",
+    "static/media/paint.jpg": "/static/media/paint.a998d18d965554cdfcf0.jpg",
+    "static/media/stretch.jpg": "/static/media/stretch.1883fd7838273d1af14b.jpg",
+    "static/media/skills6.jpg": "/static/media/skills6.536959f1601ce2a8f5c2.jpg",
+    "index.html": "/index.html",
+    "main.18c23844.css.map": "/static/css/main.18c23844.css.map",
+    "main.ae7687e3.js.map": "/static/js/main.ae7687e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18c23844.css",
+    "static/js/main.ae7687e3.js"
+  ]
+}
