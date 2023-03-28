@@ -4,7 +4,12 @@
     margin: 0 auto;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    padding-top: env(safe-area-inset-top);
 
+  }
+  #home-container{
+    background-image: url(assets/images/realmountain.jpg);
+    background-repeat: no-repeat;
   }
   
   #mountain{
@@ -12,12 +17,14 @@
     background: center;
     background-size: cover;
   }
+
+  /************ NAV BAR ************* */
+
   #navbar{
     position: sticky;
     top: 0;
     align-self: flex-start;
     margin-right: 3em;
-   
   }
   #links{
     list-style: none;
@@ -52,6 +59,7 @@
     cursor: pointer;
   }
  
+/* *************** HOME ************** */
 
   #home{
     position: center;
@@ -72,9 +80,12 @@
     padding-right: 5em;
     padding-bottom: 2em;
   }
+  #myname{
+    font-size: 60px;
+    font-weight: 1000;
+  }
   #textone{
     font-size: 20px;
-    
   }
   #textwo{
     font-size: 20px;
@@ -116,13 +127,13 @@
     margin-right: 1em;
     text-transform: uppercase;
     font-weight: bold;
-}
-#contact-button:hover{
+  }
+  #contact-button:hover{
   color: #ff7a59;
   border: #ff7a59 solid 1px;
   background: transparent;
   cursor: pointer;
-}
+ }
 .circle-arrow{
   margin-bottom: 2em;
   margin-top: .5em;
@@ -132,6 +143,50 @@
   cursor: pointer;
   transform:  scale(1.5);
   color:rgb(220, 218, 218);
+}
+
+
+/* ************* ABOUT ************** */
+
+#about{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 5em;
+ justify-content: center;
+ padding-left: 20%;
+ padding-right: 25;
+}
+#me{
+  height: 300px;
+  margin-top: 3em;
+  margin-right: 1em;
+  border-radius: 50%;
+  border: white solid 4px;
+  }
+#aboutmelist{
+  list-style: none;
+}
+#me-one{
+  text-align: left;
+  margin: 2em;
+  width: 60%;
+}
+#me-middle{
+  text-align: left;
+  margin: 2em;
+  width: 60%;
+}
+#title-me{
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 20px;
+}
+#me-two{
+  text-align: left;
+  margin: 2em;
+  width: 60%;
 }
 #doctor{
  font-style: italic;
@@ -144,13 +199,8 @@ color:#ff7a59
 #javascript{
   font-style: italic;
   color:#ff7a59
-
 }
-  #myname{
-    font-size: 60px;
-    font-weight: 1000;
-  }
- #developer{
+#developer{
   font-weight: bold;
   font-family: monospace;
   color: #ff7a59;
@@ -162,8 +212,8 @@ color:#ff7a59
   -moz-animation: fadeIn 8s;
   -o-animation: fadeIn 8s;
   -ms-animation: fadeIn 8s;
-  
  }
+
  @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -189,60 +239,16 @@ color:#ff7a59
   100% { opacity: 1; }
 }
 
+/* ******************* SOCIAL FOLLOW ****************** */
+
 #social-links{
   display: flex;
   justify-content: center;
   gap: 1em;
   margin-top: 3em;
 }
-
-#me{
-    height: 300px;
-    margin-top: 3em;
-    margin-right: 1em;
-    border-radius: 50%;
-    border: white solid 4px;
-
-  }
-#aboutmelist{
-  list-style: none;
-}
-#about{
-  background-color: black;
-    color: white;
-  display: flex;
-  flex-direction: row;
-  padding: 5em;
- justify-content: center;
- padding-left: 20%;
- padding-right: 25;
-}
-
-#me-one{
-  text-align: left;
-  margin: 2em;
-  width: 60%;
-}
-
-#me-middle{
-  text-align: left;
-  margin: 2em;
-  width: 60%;
-}
-
-#title-me{
-  text-align: center;
-  margin-bottom: 1em;
-  font-size: 20px;
-}
-#me-two{
-  text-align: left;
-  margin: 2em;
-  width: 60%;
-}
 .google-social{
   border-radius: 50% ;
-  
 }
 .google-social:hover{
   transform:  scale(1.5);
@@ -265,38 +271,8 @@ color:#ff7a59
   color:rgb(220, 218, 218);
 }
 
-#skills{
-  display: flex;
-  justify-content: center;
-  gap: 200px;
-  padding-top: 4em;
-  padding-bottom: 4em;
-  background-color: rgba(242, 239, 239, 0.978);
-}
-.skills-container{
-  width: 25em;
-  background-color: rgba(8, 7, 7, 0.13);
-  border-radius: 50px;
-}
-.skills-html { border-radius: 50px; height:1.4em; width: 15em; background-color: #04AA6D;}
-.skills-javascript { border-radius: 50px; height:1.4em; width: 20em; background-color: #04AA6D;}
-.skills-react { border-radius: 50px; height:1.4em; width: 22em; background-color: #04AA6D;}
-.skills-sql { border-radius: 50px; height:1.4em; width: 18em; background-color: #04AA6D;}
-.skills-express { border-radius: 50px; height:1.4em; width: 21em; background-color: #04AA6D;}
-.skills-node { border-radius: 50px; height:1.4em; width: 15em; background-color: #04AA6D;}
-#skills-title{
-  margin-right: 1em;
-  font-size: 30px;
-  text-decoration: underline rgb(239, 130, 13);
-}
-#frontend{
-font-size: 20px;
-font-weight:900; 
-}
-#backend{
-  font-size: 20px;
-  font-weight:900; 
-}
+
+/* ***************** Portfolio ***************** */
 
 .allPorts{
   background-color: rgba(0, 0, 0, 0.874);
@@ -311,7 +287,6 @@ font-weight:900;
 }
 #creative-juiceslink{
   position:relative;
-
 }
 #paint{
   opacity: 1;
@@ -382,7 +357,6 @@ font-weight:900;
 }
 #fitness-link{
   position:relative;
-
 }
 #stretch{
   opacity: 1;
@@ -416,9 +390,6 @@ font-weight:900;
   font-size: 16px;
   padding: 16px 32px;
 }
-
-
-
 .checkout{
   display: flex;
   flex-direction: column;
@@ -427,14 +398,73 @@ font-weight:900;
   gap: 5em;
   color: whitesmoke;
 }
+#port-intro{
+  position: absolute;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin-bottom: 5em;
+ 
+   margin-left: 41%;
+  color: whitesmoke;
+   font-size: 30px;
+ }
+ #portp{
+   color: white;
+ }
+ #girlsbikelink{
+   position:relative;
+ }
+ #girlsbike{
+   opacity: 1;
+   display: block;
+   width: 200px;
+   height: auto;
+   transition: .5s ease;
+   backface-visibility: hidden;
+ }
+ .textfour{
+   transition: .5s ease;
+   opacity: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   text-align: center;
+ }
+ #girlsbikelink:hover #girlsbike{
+   opacity: 0.3;
+   cursor: pointer;
+ }
+ #girlsbikelink:hover .textfour{
+   opacity: 1;
+   cursor: pointer;
+ }
+ #text-girlsbike{
+   background-color:#04AA6D;
+   color: white;
+   font-size: 16px;
+   padding: 16px 32px;
+ }
+
+/* *************** SKILLS ************* */
+
 #skills{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  background-color: rgba(242, 239, 239, 0.978);
   background-color: rgba(0, 0, 0, 0.874);
 }
-
 #skillsimg{
   width: 50%;
   border: rgb(244, 241, 241) solid 8px;
 }
+
+/* 
+************* CONTACT ***************** */
 
 #contactpage{
   background-color: rgba(0, 0, 0, 0.874);
@@ -510,65 +540,136 @@ font-weight:900;
     color: orange;
     font-size: 10px;
   }
+
+  /* **************** Testimonials ************* */
+
   #testimonial-container{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     min-height: 100vh;
   }
-
-  #port-intro{
-   position: absolute;
-   padding-top: 50px;
-   padding-bottom: 10px;
-   margin-bottom: 5em;
-  
-    margin-left: 41%;
-   color: whitesmoke;
-    font-size: 30px;
-  }
-  #portp{
+  #quote{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 25%;
     color: white;
-  }
-  #girlsbikelink{
-    position:relative;
-  }
-  #girlsbike{
-    opacity: 1;
-    display: block;
-    width: 200px;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
-  .textfour{
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     text-align: center;
-  }
-  #girlsbikelink:hover #girlsbike{
-    opacity: 0.3;
-    cursor: pointer;
-  }
-  #girlsbikelink:hover .textfour{
-    opacity: 1;
-    cursor: pointer;
-  }
-  #text-girlsbike{
-    background-color:#04AA6D;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
+    padding: 2em;
+   font-size: 20px;
+   font-weight: 400;
 
+}
+#quote-box{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5em;
+    padding-top: 8em;
+}
 
+  @media (min-width: 320px) and (max-width: 880px){
+    body {
+      border: none;
+      margin: 0%;
+    }
+    #mountain {
+    background-image: url(assets/images/realmountain-mobile.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+    }
+    #navbar {
+      position: unset;
+    }
 
+    /* ************ media home ************ */
 
+    #home{
+      max-width: 80%;
+      padding-left: 1em;
+      padding-right: 1em;
+      margin-top: 9%;
+      color: whitesmoke;
+    }
+    #myname{
+      font-size: 35px;
+    }
+    #developer{
+      font-size: 25px;
+    }
+    #textone{
+      font-size: 15px;
+    }
+    #textwo{
+      font-size: 15px;
+    }
+    #social-links{
+      margin-top: 8%;
+    }
+    .google-social{
+      color: whitesmoke;
+    }
+    .linkedIn-social{
+      color: whitesmoke;
+    }
+    .facebook-social{
+      color: whitesmoke;
+    }
+    .instagram-social{
+      color: whitesmoke;
+    }
+    .github-social{
+      color: whitesmoke;
+    }
+    #contact-button{
+      margin-top: 3%;
+    }
+    .circle-arrow{
+      margin-bottom: 8%;
+    }
+
+    /* ********** media about ************ */
+
+    #about{
+      flex-direction: column;
+      padding: 3%;
+      padding-left: 4%;
+      padding-right: 4%;
+    }
+    #me{
+      border-radius: 0%;
+      margin-top: 3%;
+      margin-right: 0;
+    }
+    #title-me{
+      text-align: left;
+      font-size: 30px;
+    }
+    #me-one{
+      width:80%;
+    }
+    #me-middle{
+      width: 80%;
+    }
+    #me-two{
+      width: 80%;
+    }
+    #aboutmelist{
+      padding-left: 0;
+      padding-top: 2%;
+    }
+
+    /* ********** media skills *********** */
+
+    #skills{
+      padding-top: 2.5em;
+      background-color: black;
+    }
+    #skillsimg {
+      width: 95%;
+      border: orange solid 3px;
+    }
+
+  }
 
 
 
