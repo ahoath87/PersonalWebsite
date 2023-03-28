@@ -18,7 +18,7 @@ const AboutMe = () => {
         <div id='me-one'>
           <div id='title-me'>About Me</div>
           Prior to FullStack Academy, I practiced as a{' '}
-          <span id='doctor'> Doctor of physical therapy</span> for 10 years.
+          <span id='doctor'> Doctor of Physical Therapy</span> for 10 years.
           While I loved working with patients, I was truly driven by the
           complexity of solving interrelated issues among body systems as well
           as the impact my work had. This is what led me to seek out new ways to
@@ -27,13 +27,13 @@ const AboutMe = () => {
         </div>
         <div id='me-middle'>
           I discovered my immense interest in{' '}
-          <span id='softwaredev'>software development, </span> where I found
+          <span id='softwaredev'>Software Development, </span> where I found
           that I can combine my passion for teamwork, leadership, creativity and
           problem solving to have a potentially vast social and technological
           impact.
         </div>
         <div id='me-two'>
-          I am currently writing <span id='javascript'> Javascript </span>{' '}
+          I am currently writing <span id='javascript'> JavaScript </span>{' '}
           across the full stack for web applications and seeking out an
           opportunity to be apart of a collaborative community where I have the
           ability to contribute ideas, navigate complex challenges and learn

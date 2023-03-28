@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const navLinks = [
   { navLinkId: 'Home', scrollToId: 'home' },
   { navLinkId: 'About', scrollToId: 'about' },
-  { navLinkId: 'Skills', scrollToId: 'skills' },
+  { navLinkId: 'Skills', scrollToId: 'skills-one' },
   { navLinkId: 'Portfolio', scrollToId: 'scroll-to-port' },
   { navLinkId: 'Contact', scrollToId: 'contactpage' },
   // { navLinkId: "FAQ's", scrollToId: 'faqs-container' },

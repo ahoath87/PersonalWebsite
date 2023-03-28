@@ -22,16 +22,17 @@ const Home = () => {
       <div id='home'>
         <h1 id='myname'>Ashley Hoath</h1>
         <div>
-          <p id='developer'>Software Developer</p>
+          <div id='developer'>
+            Software Developer <br />
+          </div>
           <p id='textone'>
             Striving to enhance a technological future by promoting positive
             social impact.
           </p>
           <p id='textwo'>
             In my free time you can find me on the soccer pitch, mountain biking
-            with my girl squad or my husband and living it up in the
-            backcountry, on skis or on foot, (depending on the season) with my
-            dog Stella.
+            with my girl squad, or my husband, and living it up in the
+            backcountry with my dog Stella.
           </p>
           <SocialFollow></SocialFollow>
           <a
