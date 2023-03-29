@@ -1,173 +1,41 @@
-/* .allPorts{
-  background-color: rgba(0, 0, 0, 0.874);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 10em;
-  padding-bottom: 10em;
-  padding-top: 14em;
-  gap: 4em;
-}
-#creative-juiceslink{
-  position:relative;
-}
-#paint{
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-.textone{
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-#creative-juiceslink:hover #paint{
-  opacity: 0.3;
-  cursor: pointer;
-}
-#creative-juiceslink:hover .textone{
-  opacity: 1;
-  cursor: pointer;
-}
-#text-creative{
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-#pelvic-link{
-  position:relative;
-}
-#women{
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-.textwo{
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-#pelvic-link:hover #women{
-  opacity: 0.3;
-  cursor: pointer;
-}
-#pelvic-link:hover .textwo{
-  opacity: 1;
-  cursor: pointer;
-}
-#text-pelvic{
-  background-color:#04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-#girlsbikelink{
-  position:relative;
-}
-#girlsbike{
-  opacity: 1;
-  display: block;
-  width: 30%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-.textfour{
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-#girlsbikelink:hover #girlsbike{
-  opacity: 0.3;
-  cursor: pointer;
-}
-#girlsbikelink:hover .textfour{
-  opacity: 1;
-  cursor: pointer;
-}
-#text-girlsbike{
-  background-color:#04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
+/* 
 
-#fitness-link{
-  position:relative;
-}
-#stretch{
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-.textthree{
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-#fitness-link:hover #stretch{
-  opacity: 0.3;
-  cursor: pointer;
-}
-#fitness-link:hover .textthree{
-  opacity: 1;
-  cursor: pointer;
-}
-#text-fitness{
-  background-color: #04AA6D;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-.checkout{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 5em;
-  color: whitesmoke;
-}
-#port-intro{
-  position: absolute;
-  padding-top: 50px;
-  padding-bottom: 10px;
-  margin-bottom: 5em;
- 
-   margin-left: 41%;
-  color: whitesmoke;
-   font-size: 30px;
- }
- #portp{
-   color: white;
- } */
+
+
+
+<div className='pelvic-container'>
+<div className='checkout'>
+  <div id='pelvic-link'>
+    <img id='women' src={women}></img>
+    <div className='texttwo'>
+      <div id='text-pelvic'>Pelvic Health Website</div>
+      <div>
+        <p>
+          A website for Women and Non-binary individuals to find
+          resources for pelvic health
+        </p>
+      </div>
+      <div className='portp'>
+        <p id='portp'>Javascript</p>
+        <p id='portp'>React.js</p>
+        <p id='portp'>Webpack</p>
+        <p id='portp'>Express</p>
+        <p id='portp'>PostgresSQL</p>
+      </div>
+      <div className='portp-butt'>
+        <button
+          onClick={() => {
+            window.open(urlThree);
+          }}
+          id='portp-butt'
+        >
+          GitHub
+        </button>
+        {<button id='portp-butt'>View Live</button>}
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+  */

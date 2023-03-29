@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Open+Sans&display=swap');
 
 #root {
     margin: 0 auto;
@@ -418,11 +419,12 @@ color:#ff7a59
   
 }
 #port-intro{
-  background: linear-gradient( black, whitesmoke);
+  background: whitesmoke;
   padding: 3%;
+  padding-bottom: 0%;
   margin-top: 0;
   margin-bottom: 0;
-  color: white;
+  color: black;
   font-size: 30px;
 }
 .allPorts{
@@ -432,7 +434,7 @@ color:#ff7a59
   justify-content: center;
   align-items: center;
   padding: 10em;
-  padding-bottom: 10em;
+  padding-bottom: 5em;
   padding-top: 2%;
   gap: 5%;
 }
@@ -442,17 +444,272 @@ color:#ff7a59
   justify-content: center;
   align-items: center;
   gap: 4%;
+  padding: 2%;
  
 }
 .secondtwo-container{
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   gap: 4%;
+  padding: 2%;
+}
+.third-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  padding: 3%;
 }
 #paint{
   border-radius: 15%;
   box-shadow: 0 3px 10px rgba(12, 11, 11, 0.871);
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  display: block;
 }
+.textone{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+}
+#creative-container{
+  position:relative;
+}
+#creative-container:hover #paint{
+  opacity: 0.3;
+  cursor: pointer;
+}
+#creative-container:hover .textone{
+  opacity: 1;
+  cursor: pointer;
+}
+#text-creative{
+  color: rgb(5, 5, 5);
+ font-weight: 900;
+  font-size: 20px;
+  padding: 2%;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+#women{
+  border-radius: 15%;
+   box-shadow: 0 3px 10px rgba(12, 11, 11, 0.871);
+   opacity: 1;
+   transition: .5s ease;
+   backface-visibility: hidden;
+   display: block;
+ }
+ .texttwo{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+ }
+ .pelvic-container{ 
+  position:relative;
+ }
+ #pelvic-link:hover #women{
+   opacity: 0.3;
+   cursor: pointer;
+ }
+.pelvic-container:hover .texttwo{
+   opacity: 1;
+   cursor: pointer;
+ }
+ #text-pelvic{
+  color: rgb(5, 5, 5);
+  font-weight: 900;
+   font-size: 20px;
+   padding: 2%;
+   font-family: 'JetBrains Mono', monospace;
+ }
+ #girl-img{
+  border-radius: 15%;
+  box-shadow: 0 3px 10px rgba(12, 11, 11, 0.871);
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  display: block;
+}
+ .textfour{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+}
+
+.gear-container{
+  position:relative;
+}
+.gear-container:hover #girl-img{
+  opacity: 0.3;
+  cursor: pointer;
+}
+.gear-container:hover .textfour{
+  opacity: 1;
+  cursor: pointer;
+}
+#text-gear{
+  color: rgb(5, 5, 5);
+ font-weight: 900;
+  font-size: 20px;
+  padding: 2%;
+  font-family: 'JetBrains Mono', monospace;
+}  
+#stretch{
+  border-radius: 15%;
+   box-shadow: 0 3px 10px rgba(12, 11, 11, 0.871);
+   opacity: 1;
+   transition: .5s ease;
+   backface-visibility: hidden;
+   display: block;
+}
+.textthree{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+}
+
+.fitness-link{
+  position:relative;
+}
+.fitness-link:hover #stretch{
+  opacity: 0.3;
+  cursor: pointer;
+}
+.fitness-link:hover .textthree{
+  opacity: 1;
+  cursor: pointer;
+}
+#text-fitness{
+  color: rgb(5, 5, 5);
+ font-weight: 900;
+  font-size: 20px;
+  padding: 2%;
+  font-family: 'JetBrains Mono', monospace;
+}  
+
+#bikinggirls{
+  border-radius: 15%;
+   box-shadow: 0 3px 10px rgba(12, 11, 11, 0.871);
+   opacity: 1;
+   transition: .5s ease;
+   backface-visibility: hidden;
+   display: block;
+}
+.textfive{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+}
+
+.bikeitgiveit-container{
+  position:relative;
+}
+.bikeitgiveit-container:hover #bikinggirls{
+  opacity: 0.3;
+  cursor: pointer;
+}
+.bikeitgiveit-container:hover .textfive{
+  opacity: 1;
+  cursor: pointer;
+}
+#text-give{
+  color: rgb(5, 5, 5);
+ font-weight: 900;
+  font-size: 20px;
+  padding: 2%;
+  font-family: 'JetBrains Mono', monospace;
+}  
+
+.portp{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  width: 100%;
+}
+#portp{
+  
+  background-color: #ff7a5952;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding: .5%;
+}
+.portp-butt {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  align-items: center;
+  justify-content: center;
+}
+#portp-butt {
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 2%;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+#portp-butt:disabled {
+  pointer-events: none;
+}
+
+#portp-butt:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+#portp-butt:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
 
 
  
