@@ -1,14 +1,13 @@
 import React from 'react';
-import './testimonials.css';
 import fruita from '../assets/images/fruita1.jpg';
 
 const Testimonials = () => {
   return (
     <div
-      style={{
-        backgroundImage: `url(${fruita})`,
-        backgroundRepeat: 'no-repeat',
-      }}
+      // style={{
+      //   backgroundImage: `url(${fruita})`,
+      //   backgroundRepeat: 'no-repeat',
+      // }}
       id='testimonial-container'
     >
       <div id='quote-box'>

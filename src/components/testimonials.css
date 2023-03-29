@@ -1,41 +1,68 @@
-/* 
-
-
-
-
-<div className='pelvic-container'>
-<div className='checkout'>
-  <div id='pelvic-link'>
-    <img id='women' src={women}></img>
-    <div className='texttwo'>
-      <div id='text-pelvic'>Pelvic Health Website</div>
-      <div>
-        <p>
-          A website for Women and Non-binary individuals to find
-          resources for pelvic health
-        </p>
-      </div>
-      <div className='portp'>
-        <p id='portp'>Javascript</p>
-        <p id='portp'>React.js</p>
-        <p id='portp'>Webpack</p>
-        <p id='portp'>Express</p>
-        <p id='portp'>PostgresSQL</p>
-      </div>
-      <div className='portp-butt'>
-        <button
-          onClick={() => {
-            window.open(urlThree);
-          }}
-          id='portp-butt'
-        >
-          GitHub
-        </button>
-        {<button id='portp-butt'>View Live</button>}
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-  */
+#contactpage{
+  background-color: rgba(0, 0, 0, 0.874);
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 8em;
+}
+.emailform{
+  display: flex;
+  flex-direction: column;
+ 
+  gap: 1em;
+  padding: 1em;
+}
+#contact-other{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#contacticons{
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#emailname, #emailuser, #emailmessage{
+  border-radius: 10px;
+  padding: .5em;
+}
+#emailbutt{
+  border-radius: 9999px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    --tw-border-opacity: 1;
+    border-color: rgba(249,115,22,var(--tw-border-opacity));
+    color: whitesmoke;
+    font-size: 1rem;
+    padding: .5em;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  #emailbutt:hover{
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background: transparent;
+    cursor: pointer;
+  }
+  .contact-linkin{
+    color: white;
+    text-decoration: none;
+  }
+  .contact-linkin:hover{
+    color: #ff7a59;
+  }
+  .location-contact{
+    color: white;
+    text-decoration: none;
+  }
+  .location-contact:hover{
+    color: #ff7a59;
+  }
+  #envtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
