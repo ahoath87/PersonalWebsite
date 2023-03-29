@@ -83,47 +83,39 @@
   #myname{
     font-size: 60px;
     font-weight: 1000;
+   margin-bottom: 2%;
   }
-  
-  #developer{
-    font-weight: bold;
-    font-family: monospace;
+
+  #developer {
+    font-weight: 1000;
+    font-family: 'JetBrains Mono', monospace;
     color: #ff7a59;
     letter-spacing: 7px;
     cursor: pointer;
-    font-size: 45px;
+    font-size: 50px;
     padding-bottom:1%;
-    animation: fadeIn 8s;
-    -webkit-animation: fadeIn 8s;
-    -moz-animation: fadeIn 8s;
-    -o-animation: fadeIn 8s;
-    -ms-animation: fadeIn 8s;
+   }
+   #developer {
+   
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+   
+    /* Apply animation to this element */	
+    animation: developer 10s ease-out;
+   }
+   /* Move it (define the animation) */
+   @keyframes developer {
+    0%   { 
+    transform: translateX(200%); 		
+    }
+    100% { 
+    transform: translateX(0%); 
+    }
    }
   
-   @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-moz-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-o-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-  
-  @-ms-keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
   #textone{
     font-size: 20px;
   }
@@ -184,6 +176,18 @@
   transform:  scale(1.5);
   color:rgb(220, 218, 218);
 }
+#photoby{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: white;
+  font-size: 10px;
+  padding: 1%;
+}
+#attribute{
+  color: orange;
+  font-size: 10px;
+}
 
 
 /* ************* ABOUT ************** */
@@ -205,9 +209,11 @@
   border-radius: 50%;
   border: white solid 4px;
   }
+
 #aboutmelist{
   list-style: none;
-  
+  padding-left: 0%;
+  width: 150%;
 }
 #me-one{
   text-align: left;
@@ -276,6 +282,7 @@ color:#ff7a59
 }
 
 /* *************** SKILLS ************* */
+
 #skills-one{
   background-color: black;
   padding: 1%;
@@ -303,7 +310,19 @@ color:#ff7a59
   padding-bottom: 1%;
   /* padding: 2%; */
 }
+.skills-table-icon{
+  display: flex;
+  flex-direction: column;
+  /* border: solid white 1pt; */
+  width: 15%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  /* padding: 2%; */
+}
 .skills-table p{
+  color: white;
+}
+.skills-table-icon p{
   color: white;
 }
 #expressJs{
@@ -313,7 +332,6 @@ color:#ff7a59
   background-color: white;
   padding: .5%;
 }
-
 @keyframes bg {
   0% {
       background-size:    0 3px,
@@ -364,17 +382,48 @@ color:#ff7a59
   animation: bg 1.25s cubic-bezier(0.19, 1, 0.22, 1) 1;
   animation-play-state: running;
 }
+.skills-table-icon {
+  background-repeat: no-repeat;
+  background-image:   linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                      linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%),
+                      linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                      linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%);
+  background-size:    100% 3px,
+                      3px 100%,
+                      100% 3px,
+                      3px 100%;
+  background-position:    0 0,
+                          100% 0,
+                          100% 100%,
+                          0 100%;
+  animation: bg 1.25s cubic-bezier(0.19, 1, 0.22, 1) 1;
+  animation-play-state: running;
+}
 
+#icon {
+  animation: blinker 1s linear infinite;
+}
 
-
-
-
+@keyframes blinker {
+  60% {
+    opacity: .4;
+  }
+}
 
 /* ***************** Portfolio ***************** */
+
 #scroll-to-port{
   background-color: whitesmoke;
   color: rgb(12, 11, 11);
-  padding-top: .5%;
+  
+}
+#port-intro{
+  background: linear-gradient( black, whitesmoke);
+  padding: 3%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  font-size: 30px;
 }
 .allPorts{
   background-color: whitesmoke;
@@ -384,7 +433,7 @@ color:#ff7a59
   align-items: center;
   padding: 10em;
   padding-bottom: 10em;
-  padding-top: 7%;
+  padding-top: 2%;
   gap: 5%;
 }
 .firsttwo-container{
@@ -473,17 +522,7 @@ color:#ff7a59
   .location-contact:hover{
     color: #ff7a59;
   }
-  #photoby{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    color: white;
-    font-size: 10px;
-  }
-  #attribute{
-    color: orange;
-    font-size: 10px;
-  }
+ 
 
   /* **************** Testimonials ************* */
 

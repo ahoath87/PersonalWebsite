@@ -42,13 +42,13 @@ const SkillsTwo = () => {
         <FontAwesomeIcon icon={faDatabase} size='2xl' color='white' fade />
         <p>Restful APIs</p>
       </div>
-      <div className='skills-table'>
+      <div className='skills-table-icon'>
         <a href='https://icons8.com/icons/set/postgres'>
           <img id='icon' src={postgres}></img>
         </a>
         <p>PostgreSQL</p>
       </div>
-      <div className='skills-table'>
+      <div className='skills-table-icon'>
         <a href='https://icons8.com/icons/set/express-js'>
           <img id='icon' src={expressJS}></img>
         </a>
@@ -58,13 +58,13 @@ const SkillsTwo = () => {
         <FontAwesomeIcon icon={faTerminal} size='2xl' color='white' fade />
         <p>Command Line</p>
       </div>
-      <div className='skills-table'>
+      <div className='skills-table-icon'>
         <a href='https://icons8.com/icons/set/C-'>
           <img id='icon' src={CSharp}></img>
         </a>
         <p>C Sharp</p>
       </div>
-      <div className='skills-table'>
+      <div className='skills-table-icon'>
         <a href='https://icons8.com/icons/set/responsive-design'>
           <img id='icon' src={responsive}></img>
         </a>

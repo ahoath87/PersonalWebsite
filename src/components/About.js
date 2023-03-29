@@ -1,5 +1,5 @@
 import React from 'react';
-import ashandstella from '../assets/images/ashandstella.png';
+import AshAIB from '../assets/images/AshAIB.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faBicycle,
@@ -13,10 +13,10 @@ import {
 const AboutMe = () => {
   return (
     <div id='about'>
-      <img id='me' src={ashandstella}></img>
+      <img id='me' src={AshAIB}></img>
       <div id='me-info'>
         <div id='me-one'>
-          <div id='title-me'>About Me</div>
+          <div id='title-me'>About</div>
           Prior to FullStack Academy, I practiced as a{' '}
           <span id='doctor'> Doctor of Physical Therapy</span> for 10 years.
           While I loved working with patients, I was truly driven by the
@@ -47,7 +47,7 @@ const AboutMe = () => {
               </li>
               <li>
                 <FontAwesomeIcon icon={faBicycle} />
-                &emsp; Interests: Soccer, Mountain Biking, BlueGrass
+                &emsp; Interests: Soccer, Mountain Biking, Blue Grass
               </li>
               <li>
                 <FontAwesomeIcon icon={faMountainSun} />

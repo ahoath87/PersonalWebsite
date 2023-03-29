@@ -27,12 +27,11 @@ const Home = () => {
           </div>
           <p id='textone'>
             Striving to enhance a technological future by promoting positive
-            social impact.
+            social impact
           </p>
           <p id='textwo'>
             In my free time you can find me on the soccer pitch, mountain biking
-            with my girl squad, or my husband, and living it up in the
-            backcountry with my dog Stella.
+            or navigating my way through the Colorado backcountry
           </p>
           <SocialFollow></SocialFollow>
           <a
