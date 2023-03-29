@@ -157,6 +157,13 @@ const Portfolio = () => {
               <img id='stretch' src={stretch}></img>
               <div className='textthree'>
                 <div id='text-fitness'>Fitness Tracker Website</div>
+                <div>
+                  <p>
+                    A website for tracking health goals and activities with
+                    built in testing
+                  </p>
+                </div>
+
                 <div className='portp'>
                   <p id='portp'>Javascript</p>
                   <p id='portp'>React.js</p>
