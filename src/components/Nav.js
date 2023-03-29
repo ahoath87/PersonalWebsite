@@ -2,7 +2,7 @@ import { React, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const navLinks = [
-  { navLinkId: 'Home', scrollToId: 'home' },
+  { navLinkId: 'Home', scrollToId: 'home-container' },
   { navLinkId: 'About', scrollToId: 'about' },
   { navLinkId: 'Skills', scrollToId: 'skills-one' },
   { navLinkId: 'Portfolio', scrollToId: 'scroll-to-port' },

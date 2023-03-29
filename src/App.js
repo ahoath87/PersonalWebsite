@@ -13,13 +13,7 @@ import Skills from './components/Skills';
 function App() {
   return (
     <div className='App'>
-      <div
-        id='home-container'
-        // style={{
-        //   backgroundImage: `url(${mountain})`,
-        //   backgroundRepeat: 'no-repeat',
-        // }}
-      >
+      <div id='home-container'>
         <NavBar></NavBar>
         <Home></Home>
         <div>

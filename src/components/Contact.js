@@ -89,7 +89,7 @@ export const ContactUs = () => {
             quote='Thanks so much for reaching out!'
             Close={() => setStatus(false)}
           />
-          <div>
+          <div id='envtext'>
             <FontAwesomeIcon icon={faEnvelope} size='3x' />
             &emsp; Get in touch
           </div>
