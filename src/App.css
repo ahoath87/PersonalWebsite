@@ -295,6 +295,8 @@ color:#ff7a59
   gap: 100px;
   padding-top: 4em;
   padding-bottom: 6em;
+  padding-right: 1em;
+  padding-left: 1em;
   background-color: rgba(242, 239, 239, 0.978);
   background-color: black;
 }

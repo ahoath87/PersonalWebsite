@@ -26,7 +26,7 @@ const Home = () => {
             Software Developer <br />
           </div>
           <p id='textone'>
-            Striving to enhance a technological future by promoting positive
+            Striving to enhance a technological future while promoting positive
             social impact
           </p>
           <p id='textwo'>
