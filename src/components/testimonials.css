@@ -1,68 +1,29 @@
-#contactpage{
-  background-color: rgba(0, 0, 0, 0.874);
-  color: white;
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: center;
-  padding: 8em;
-}
-.emailform{
-  display: flex;
-  flex-direction: column;
+#developer {
+  font-weight: 1000;
+  font-family: 'JetBrains Mono', monospace;
+  color: #ff7a59;
+  letter-spacing: 7px;
+  cursor: pointer;
+  font-size: 50px;
+  padding-bottom:1%;
+ }
+ #developer {
  
-  gap: 1em;
-  padding: 1em;
-}
-#contact-other{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-#contacticons{
-  list-style: none;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-#emailname, #emailuser, #emailmessage{
-  border-radius: 10px;
-  padding: .5em;
-}
-#emailbutt{
-  border-radius: 9999px;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    --tw-border-opacity: 1;
-    border-color: rgba(249,115,22,var(--tw-border-opacity));
-    color: whitesmoke;
-    font-size: 1rem;
-    padding: .5em;
-    text-transform: uppercase;
-    font-weight: bold;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+ 
+  /* Apply animation to this element */	
+  animation: developer 5s ease-out;
+ }
+ /* Move it (define the animation) */
+ @keyframes developer {
+  0%   { 
+  transform: translateX(200%); 		
   }
-  #emailbutt:hover{
-    color: #ff7a59;
-    border: #ff7a59 solid 1px;
-    background: transparent;
-    cursor: pointer;
+  100% { 
+  transform: translateX(0%); 
   }
-  .contact-linkin{
-    color: white;
-    text-decoration: none;
-  }
-  .contact-linkin:hover{
-    color: #ff7a59;
-  }
-  .location-contact{
-    color: white;
-    text-decoration: none;
-  }
-  .location-contact:hover{
-    color: #ff7a59;
-  }
-  #envtext{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+ }

@@ -851,7 +851,16 @@ color:#ff7a59
     }
     #developer{
       font-size: 25px;
+      justify-content: center;
     }
+    @keyframes developer {
+      0%   { 
+      transform: translateX(150%); 		
+      }
+      100% { 
+      transform: translateX(0%); 
+      }
+     }
     #textone{
       font-size: 15px;
     }
@@ -986,6 +995,7 @@ color:#ff7a59
     }
     .textfour{
       opacity: 1;
+      padding-bottom: 10%;
     }
     #stretch{
       opacity: .4;
@@ -1014,14 +1024,16 @@ color:#ff7a59
    } */
    #testimonial-container{
     
-    background-image: url(assets/images/fruitagal.jpg);
+    background-image: none;
+    background-color: #1A1A1A;
     background-position: center center;
     background-repeat: repeat;
     background-size: cover;
-   min-height: 50vh;
+    min-height: 50vh;
 
    }
     #quote-box{
+      background-image: url(assets/images/fruitagal.jpg);
       margin-right: 5%;
       margin-left: 5%;
       padding-top: 20%;
