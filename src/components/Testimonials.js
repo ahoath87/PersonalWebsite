@@ -13,10 +13,10 @@ const Testimonials = () => {
     >
       <div id='quote-box'>
         <div id='quote'>
-          <p>"We shall not cease from exploring</p>
+          <p>"We shall not cease from exploration</p>
           <p>And the end of all our exploring</p>
           <p>Will be to arrive where we started</p>
-          <p>And know the place for the first time"</p>
+          <p>And know the place for the first time."</p>
           <p> ~ T.S. Elliot</p>
         </div>
       </div>

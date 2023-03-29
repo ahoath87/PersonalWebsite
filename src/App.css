@@ -105,7 +105,7 @@
     text-align: center;
    
     /* Apply animation to this element */	
-    animation: developer 10s ease-out;
+    animation: developer 5s ease-out;
    }
    /* Move it (define the animation) */
    @keyframes developer {
@@ -427,6 +427,10 @@ color:#ff7a59
   color: black;
   font-size: 30px;
 }
+#hover{
+  padding: 0;
+  margin: 0;
+}
 .allPorts{
   background-color: whitesmoke;
   display: flex;
@@ -710,7 +714,29 @@ color:#ff7a59
   transform: translateY(0);
 }
 
+/* **************** Testimonials ************* */
 
+#testimonial-container{
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+#quote-box{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 6%;
+  padding-top: 10%;
+}
+#quote{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  color: white;
+  text-align: center;
+  padding: 5%;
+ font-size: 20px;
+ font-weight:1000;
+}
 
  
 /* 
@@ -779,33 +805,14 @@ color:#ff7a59
   .location-contact:hover{
     color: #ff7a59;
   }
- 
-
-  /* **************** Testimonials ************* */
-
-  #testimonial-container{
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    min-height: 100vh;
-  }
-  #quote{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    width: 25%;
-    color: white;
-    text-align: center;
-    padding: 2em;
-   font-size: 20px;
-   font-weight: 400;
-
-}
-#quote-box{
+  #envtext{
     display: flex;
-    justify-content: flex-end;
-    margin-right: 5em;
-    padding-top: 8em;
-}
+    justify-content: center;
+    align-items: center;
+  }
 
+  /* **************** MEDIA MOBILE RESPONSIVE************** */
+ 
   @media (min-width: 320px) and (max-width: 880px){
     body {
       border: none;

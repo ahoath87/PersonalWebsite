@@ -19,6 +19,7 @@ const Portfolio = () => {
   return (
     <div id='scroll-to-port'>
       <h2 id='port-intro'>Portfolio Projects</h2>
+      <h4 id='hover'>Hover to see my work!</h4>
       <div className='allPorts'>
         {/* ************** holds first two **************** */}
 

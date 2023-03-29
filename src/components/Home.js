@@ -18,7 +18,7 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <div id='scrollhome'>
       <div id='home'>
         <h1 id='myname'>Ashley Hoath</h1>
         <div>
