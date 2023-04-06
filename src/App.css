@@ -949,6 +949,9 @@ color:#ff7a59
     .allPorts{
       padding: 0;
     }
+    #hover{
+      color: whitesmoke;
+    }
     .firsttwo-container{
       flex-direction: column;
       padding: 0%;
@@ -970,7 +973,7 @@ color:#ff7a59
       width: 100%; 
       border-radius: 0%;
       opacity: .4;
-      margin-top: 3%;
+      margin-top: 0%;
     }
     .textone{
       opacity: 1;
