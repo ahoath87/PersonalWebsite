@@ -900,12 +900,24 @@ color:#ff7a59
       padding-left: 4%;
       padding-right: 4%;
     }
-    #me{
+    /* #me{
       border-radius: 0%;
       margin-top: 3%;
       margin-right: 2%;
       margin-left: 2%;
+    } */
+    #me{
+      border-radius: 0%;
+      margin-top: 3%;
+      /* display: flex;
+      align-items: center;
+      justify-content: center; */
+      width: 20em;
+      margin-right: 2%;
+      margin-left: 5%;
+      
     }
+
     #title-me{
       text-align: center;
       font-size: 30px;
@@ -1075,8 +1087,6 @@ color:#ff7a59
     width: 90%;
   }
   }
-
-
 
 
 
