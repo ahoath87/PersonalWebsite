@@ -33,7 +33,7 @@ const Portfolio = () => {
               <div className='textone'>
                 <div id='text-creative'>Creative Juices Website</div>
                 <div>
-                  <p>
+                  <p id='p-media'>
                     An E-Commerce based website for a small paint and sip
                     business
                   </p>
@@ -76,7 +76,7 @@ const Portfolio = () => {
                 <div className='texttwo'>
                   <div id='text-pelvic'>Pelvic Health Website</div>
                   <div>
-                    <p>
+                    <p id='p-media-diff'>
                       A website for Women and Non-binary individuals to find
                       resources for pelvic health
                     </p>
@@ -116,7 +116,7 @@ const Portfolio = () => {
               <div className='textfour'>
                 <div id='text-gear'>Womens Gear Trade</div>
                 <div>
-                  <p>
+                  <p id='p-media-diff'>
                     Getting women into the outdoors through easy gear access and
                     connections
                   </p>
@@ -158,7 +158,7 @@ const Portfolio = () => {
               <div className='textthree'>
                 <div id='text-fitness'>Fitness Tracker Website</div>
                 <div>
-                  <p>
+                  <p id='p-media'>
                     A website for tracking health goals and activities with
                     built in testing
                   </p>
@@ -206,7 +206,7 @@ const Portfolio = () => {
               <div className='textfive'>
                 <div id='text-give'>BikeItSkiItCampItGiveIt</div>
                 <div>
-                  <p>
+                  <p id='p-media'>
                     An interactive map, utilizing Geospatial capabilities and
                     Google Maps API to select favored outdoor locations and
                     recieve opportunities to give back

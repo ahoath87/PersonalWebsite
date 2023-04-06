@@ -1016,10 +1016,17 @@ color:#ff7a59
       opacity: .4;
       border-radius: 0%;
       width: 100%;
-     
     }
     .textfive{
       opacity: 1;
+    }
+    #p-media{
+      font-size: 12px;
+      font-weight: 500;
+    }
+    #p-media-diff{
+      font-size: 15px;
+      font-weight: 500;
     }
     #portp{
      font-size: 8pt;
