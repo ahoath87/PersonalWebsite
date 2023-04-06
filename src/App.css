@@ -903,8 +903,8 @@ color:#ff7a59
     #me{
       border-radius: 0%;
       margin-top: 3%;
-      margin-right: 1%;
-      margin-left: 1%;
+      margin-right: 2%;
+      margin-left: 2%;
     }
     #title-me{
       text-align: center;
@@ -951,6 +951,7 @@ color:#ff7a59
     }
     .firsttwo-container{
       flex-direction: column;
+      padding: 0%;
     }
     .secondtwo-container{
       flex-direction: column;
@@ -967,20 +968,21 @@ color:#ff7a59
     }
     #paint{
       width: 100%; 
+      border-radius: 0%;
       opacity: .4;
-      margin-top: 2%;
-      
+      margin-top: 3%;
     }
     .textone{
       opacity: 1;
+      
     }
     .pelvic-container{
       width: 100%;
     }
     #women{
-      
       opacity: .4;
-     
+      border-radius: 0%;
+      width: 100%;
     }
     .texttwo{
       opacity: 1;
@@ -991,6 +993,7 @@ color:#ff7a59
     #girl-img{
       width: 100%; 
       opacity: .4;
+      border-radius: 0%;
      
     }
     .textfour{
@@ -999,6 +1002,8 @@ color:#ff7a59
     }
     #stretch{
       opacity: .4;
+      border-radius: 0%;
+      width: 100%;
       
     }
     .textthree{
@@ -1006,6 +1011,8 @@ color:#ff7a59
     }
     #bikinggirls{
       opacity: .4;
+      border-radius: 0%;
+      width: 100%;
      
     }
     .textfive{
